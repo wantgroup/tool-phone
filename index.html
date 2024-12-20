@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
+    <title>Contact Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .contact-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-item {
+            margin-bottom: 15px;
+        }
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+        .name {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .phone {
+            font-size: 1em;
+            color: #007BFF;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Static Website</h1>
-    <p>This is a simple static website hosted on GitHub Pages.</p>
+    <div class="contact-container">
+        <div class="contact-item">
+            <div class="name">刘合意</div>
+            <div class="phone">13120565093</div>
+        </div>
+        <div class="contact-item">
+            <div class="name">金妹</div>
+            <div class="phone">15868482113</div>
+        </div>
+    </div>
 </body>
 </html>
